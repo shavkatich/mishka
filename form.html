@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <div class="page-wrapper">
+	<header class="page-header">
+      <div class="page-header__logo-link">
+          <a href="#"><img src="img/logo.png" alt="" width="86" height="35"></a>
+      </div>
+      <nav class="page-header__main-nav">
+          <li class="page-header__main-nav--active-item"></li>
+          <li><a href="#">Каталог товаров</a></li>
+          <li><a href="#">Вязание на заказ</a></li>
+          <li><a href="#">Поиск по сайту</a></li>
+          <li><a href="#">Корзина: пока пуста</a></li>
+      </nav>
+      <a href="#" class="page-header__main-nav--toggle page-header__main-nav--toggle-close"></a>
+
+    <div class="promo">
+      <h1 class="promo__title">Вязание на заказ</h1>
+    </div>
+    
+    <div class="form">
+      <div class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</div>
+      <form action="/" method="post">
+        <div class="form-item">
+          <p class="form__item-text">тип</p>
+          <input type="radio" name="type" id="type1"><label for="type1">Аксессуар для <br>интерьера</label><br>
+          <input type="radio" name="type" id="type2"><label for="type2">Детская игрушка</label>
+        </div>
+        
+        <div class="form-item">
+          <p class="form__item-text">цвет</p>
+          <input type="chekbox" name="color-white" id="color-white" checked><label for="color-white">Белый</label><br>
+          <input type="chekbox" name="color-gray" id="color-gray" checked><label for="color-gray">Серый</label><br>
+          <input type="chekbox" name="color-tiffany" id="color-tiffany"><label for="color-tiffany">"Тиффани"</label><br>
+          <input type="chekbox" name="color-black" id="color-black"><label for="color-black">Черный</label><br>
+          <input type="chekbox" name="color-pink" id="color-pink"><label for="color-pink">Розовый</label><br>
+          <input type="chekbox" name="color-orange" id="color-orange"><label for="color-orange">Оранжевый</label>
+        </div>
+        
+       <div class="form-item">
+           <p class="form__item-text">фио</p>
+          <label for="name">Имя:</label>
+          <input type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
+          <label for="surname">Фамилия:</label>
+          <input type="text" name="surname" id="surname" placeholder="Укажите фамилию*" required>
+          <label for="fathers-name">Отчество:</label>
+          <input type="text" name="fathers-name" id="fathers-name" placeholder="Отчество, если желаете*">
+        </div>
+        
+        <div class="form-item">
+          <p class="form__item-text">тел</p>
+          <input type="tel" name="tel" id="tel" placeholder="+7 XXX XX XX*" required>
+        </div>
+        
+        <div class="form-item">
+          <p class="form__item-text">e-mail</p>
+          <input type="email" name="email" id="email" placeholder="Ваш Email*" required>
+        </div>
+        
+       <div class="form-item">
+           <p class="form__item-text">доп</p>
+          <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        </div>
+      </form>
+      <p class="form__required">*Поля обязательны для заполнения</p>
+      <p class="btn form__btn">
+        <input type="submit" value="Отправить заказ">
+      </p>
+    </div>
+    
+	</header>
+
+
+
+	<footer class="page-footer">
+      <div class="page-footer__social">
+          <a href="#" class="page-footer__social--instagram">
+              <img src="img/social-icon-instagram.png" alt="">
+          </a>
+          <a href="#" class="page-footer__social--fb">
+              <img src="img/social-icon-fb.png" alt="">
+          </a>
+          <a href="#" class="page-footer__social--tw">
+              <img src="img/social-icon-tw.png" alt="">
+          </a>
+      </div>
+      <div class="page-footer__copyright">
+          <span>Разработано</span>
+          <a href="#"><img src="img/htmlacademy_logo.png" alt=""></a>
+      </div>
+	</footer>
+    </div>
+
+
+</body>
+
+</html>
