@@ -11,9 +11,9 @@
 
 <body>
   <div class="page-wrapper">
-	<header class="page-header">
+    <header class="page-header">
       <div class="page-header__logo-link">
-          <a href="#"><img src="img/logo.png" alt=""></a>
+          <a href="#"><img src="img/logo.png" alt="" width="86" height="35"></a>
       </div>
       <nav class="page-header__main-nav">
           <li class="page-header__main-nav--active-item"></li>
@@ -22,65 +22,61 @@
           <li><a href="#">Поиск по сайту</a></li>
           <li><a href="#">Корзина: пока пуста</a></li>
       </nav>
-      <a href="#" class="main-nav__toggle main-nav__toggle-close"></a>
+      <a href="#" class="page-header__main-nav--toggle page-header__main-nav--toggle-close"></a>
 	</header>
 
-	<div class="page__title">
-      <h1>Каталог товаров</h1>
+    <div class="promo">
+      <h1 class="promo__title">Каталог товаров</h1>
     </div>
 
 	<div class="catalog">
 	  <article class="catalog__item">
-	            <div class="catalog__item--img">
-	                <img src="img/catalog-item-1.jpg" alt="">
-	            </div>
-	            <h3 class="catalog__item--title">Зайчик-попрыгайчик</h3>
-	            <p class="catalog__item-descr">Рост 30 см, вес 200 г</p>
-	            <div class="catalog__item--divider"></div>
-	            <div class="catalog__item--buy">
-	                <p class="catalog__item--price">1200 руб.</p>
-	                <button class="catalog__item--cart"><img src="img/icon-cart.png" alt=""></button>
-	            </div>
+        <div class="catalog__img">
+            <img src="img/catalog-item-1.jpg" alt="">
+        </div>
+        <h3 class="catalog__item-title">Зайчик-попрыгайчик</h3>
+        <p class="catalog__item-description">Рост 30 см, вес 200 г</p>
+        <div class="catalog__buy">
+            <p class="catalog__price">1200 руб.</p>
+            <button class="catalog__item-cart"><img src="img/icon-cart.png" alt=""></button>
+        </div>
 	  </article>
 	  
 	  <article class="catalog__item">
-	            <div class="catalog__item--img">
-	                <img src="img/catalog-item-2.jpg" alt="">
-	            </div>
-	            <h3 class="catalog__item--title">Корзинка для белья</h3>
-	            <p class="catalog__item-descr">Диаметр 15 см, высота 10 см</p>
-	            <div class="catalog__item--divider"></div>
-	            <div class="catalog__item--buy">
-	                <p class="catalog__item--price">690 руб.</p>
-	                <button class="catalog__item--cart"><img src="img/icon-cart.png" alt=""></button>
-	            </div>
+        <div class="catalog__img">
+            <img src="img/catalog-item-2.jpg" alt="">
+        </div>
+        <h3 class="catalog__item-title">Корзинка для белья</h3>
+        <p class="catalog__item-description">Диаметр 15 см, высота 10 см</p>
+        <div class="catalog__item--divider"></div>
+        <div class="catalog__item--buy">
+            <p class="catalog__price">690 руб.</p>
+            <button class="catalog__item-cart"><img src="img/icon-cart.png" alt=""></button>
+        </div>
 	  </article>
 	  
 	  <article class="catalog__item">
-	            <div class="catalog__item--img">
-	                <img src="img/catalog-item-3.jpg" alt="">
-	            </div>
-	            <h3 class="catalog__item--title">Большая корзинка для игрушек</h3>
-	            <p class="catalog__item-descr">Диаметр 30 см, высота 30 см</p>
-	            <div class="catalog__item--divider"></div>
-	            <div class="catalog__item--buy">
-	                <p class="catalog__item--price">1 500 руб.</p>
-	                <button class="catalog__item--cart"><img src="img/icon-cart.png" alt=""></button>
-	            </div>
+        <div class="catalog__img">
+            <img src="img/catalog-item-3.jpg" alt="">
+        </div>
+        <h3 class="catalog__item-title">Большая корзинка для игрушек</h3>
+        <p class="catalog__item-description">Диаметр 30 см, высота 30 см</p>
+        <div class="catalog__item--divider"></div>
+        <div class="catalog__item--buy">
+            <p class="catalog__price">1 500 руб.</p>
+            <button class="catalog__item-cart"><img src="img/icon-cart.png" alt=""></button>
+        </div>
 	  </article>
 	</div>
 
 	<section class="proccess">
-      <div class="proccess__proccess--header">
-          <h1>Процесс производства</h1>
-      </div>
+      <h1 class="proccess__title">Процесс производства</h1>
       <div class="proccess__video">
-          <img src="img/catalog-video.jpg" alt="">
+          <img class="proccess__clip" src="img/catalog-video.jpg" alt="">
+          <img class="proccess__clip-play-btn" src="img/catalog-video-play.jpg" alt="">
       </div>
-      <p class="proccess__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-      <div class="proccess__order">
-          <a href="#" class="proccess__order--btn">Сделать заказ</a>
-      </div>
+      <p class="proccess__clip-text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <button class="proccess__order-btn">Сделать заказ</button>
 	</section>
 
 	<footer class="page-footer">
@@ -103,8 +99,6 @@
     </div>
 
 			
-
-
 </body>
 
 </html>
